@@ -31,9 +31,14 @@ if (!app.Environment.IsDevelopment())
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // The default HSTS value is 30 days. You may
     // want to change this for production
     // escenarios con https./2d2 mc/acentos-
+=======
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
+>>>>>>> 2d8a7edf786a91f6ec7a855457ac4835a4129d7c
 =======
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
@@ -53,6 +58,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,6 +83,8 @@ app.Run();
 >>>>>>> 2d8a7edf786a91f6ec7a855457ac4835a4129d7c
 =======
 >>>>>>> 2d8a7edf786a91f6ec7a855457ac4835a4129d7c
+=======
+>>>>>>> 2d8a7edf786a91f6ec7a855457ac4835a4129d7c
 app.UseAuthentication();
 app.UseAuthorization();
 
@@ -88,6 +96,9 @@ app.MapRazorPages();
 app.Run();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2d8a7edf786a91f6ec7a855457ac4835a4129d7c
+=======
 >>>>>>> 2d8a7edf786a91f6ec7a855457ac4835a4129d7c
 =======
 >>>>>>> 2d8a7edf786a91f6ec7a855457ac4835a4129d7c
