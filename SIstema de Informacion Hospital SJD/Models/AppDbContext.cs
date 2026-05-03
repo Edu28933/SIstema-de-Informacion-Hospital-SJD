@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using SIstema_de_Informacion_Hospital_SJD.Models;
 
 namespace SIstema_de_Informacion_Hospital_SJD
 {
@@ -10,5 +11,7 @@ namespace SIstema_de_Informacion_Hospital_SJD
             : base(options)
         {
         }
+
+        public DbSet<Persona> Personas { get; set; }
     }
 }
